@@ -102,7 +102,7 @@ main{
 }
 
 .Parallax{
-    background-image: url("../images/1245.JPEG");
+    background-image: url("./sources/1245.JPEG");
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
