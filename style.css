@@ -103,8 +103,8 @@ main{
 
 .Parallax{
     background-image: url("./sources/1245.JPEG");
-    background-attachment: fixed;
-    background-position: top;
+    background-attachment: scroll; 
+    background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 250px; 
@@ -119,7 +119,7 @@ main{
 }
 .Parallax .normal-text{
     color: #E5E7EB;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -146,7 +146,8 @@ main{
 
 .Bottom .call-action{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: space-around;
     background-color: #3882F6;
@@ -240,22 +241,19 @@ main{
         flex-basis: 50%;
     }
 
-    .call-action{
-        flex-direction: column;
+    .Bottom .call-action{
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    .call-action :is(.text-part, .button-part){
-        flex-basis: 50%;
-    }
 
     .Parallax {
-        background-attachment: scroll; /* Set background to scroll instead of fixed */
-        background-position: center; /* Adjust the background position if needed */
+        background-attachment: fixed;
+        background-position: top;
     }
 
     .Parallax .normal-text {
-        font-size: 30px; /* Adjust font size for mobile */
+        font-size: 60px;
     }
 
 
