@@ -243,9 +243,19 @@ main{
     .call-action{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .call-action :is(.text-part, .button-part){
         flex-basis: 50%;
+    }
+
+    .Parallax {
+        background-attachment: scroll; /* Set background to scroll instead of fixed */
+        background-position: center; /* Adjust the background position if needed */
+    }
+
+    .Parallax .normal-text {
+        font-size: 30px; /* Adjust font size for mobile */
     }
 
 
