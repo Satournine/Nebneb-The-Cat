@@ -165,7 +165,6 @@ main{
     padding: 10px 20px; 
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 2em;
     white-space: nowrap;
     text-align: center;
 }
@@ -245,6 +244,9 @@ main{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .Bottom .button{
+        margin-left: 2em;
     }
 
     .Parallax {
