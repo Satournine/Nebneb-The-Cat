@@ -101,6 +101,7 @@ main{
     background-color: #E5E7EB;
 }
 
+
 .Parallax{
     background-image: url("./sources/1245.JPEG");
     background-attachment: scroll; 
@@ -126,7 +127,7 @@ main{
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .Gallery .heading{
@@ -256,6 +257,7 @@ main{
 
     .Parallax .normal-text {
         font-size: 60px;
+        margin-left: 55px;
     }
 
 
